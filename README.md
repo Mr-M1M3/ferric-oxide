@@ -1,4 +1,4 @@
-# Rust like utils fro typescript
+# Rust like utils for typescript
 
 Rust is famous for its exceptional design choices that helps reduce some class of bugs beforehand. It also force us to wrtite good code. You can now taste these features in typesriupt too.
 
@@ -17,7 +17,7 @@ Currently rusts exports following classes:
 * [Maybe](#Maybe) (`Option<T>` equivalent of rust)
 * [Result](#Result)
 
-#### Maybe`<T>`
+#### Maybe `<T>`
 
 Basically a wrapper around `null`. Use it when a value can either be something or nothing.
 
@@ -94,11 +94,11 @@ maybe_a_number.transform((val) => {
 }); // {is_value: true}
 ```
 
-#### Result  `<T, E>`
+#### Result `<T, E>`
 
 typescript equivalent of rust `Result<T, E>`. It is use extensively in error handling. If a function can fail, it should always return `Result<T, E>` instead of throwing. Whoever calling the function should be the one to decide what to do with it. This approach also helps easily type a function that can fail. It takes advantage of typescript\'s discriminated union. Here, `T` represents the expected value and `E` represent the value if something happens really bad.
 
-You can call two static methods from this function. 
+You can call two static methods from this function.
 
 - `Result.Ok(expected_val)` returns an instance that contains the value we expect when all went well.
 - `Result.Err(err_val)` returns an instance that contains the value that will be returned when an error happens.
