@@ -5,6 +5,16 @@
   "scripts": {
     "build": "tsc"
   },
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./maybe": {
+      "default": "./dist/maybe/maybe.js",
+      "types": "./dist/types/maybe/maybe.d.ts"
+    }
+  },
   "keywords": [],
   "author": "@mr-m1m3",
   "license": "ISC",

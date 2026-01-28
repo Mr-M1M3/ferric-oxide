@@ -11,19 +11,18 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    "module": "NodeNext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "rootDir": "src",
     "outDir": "dist",
     "sourceMap": true,
+    "composite": false,
     "declaration": true,
-    "composite": true,
     "declarationMap": true,
+    "declarationDir": "./dist/types",
     "lib": [
       "es6"
     ]
   },
-  "include": [
-    "./src",
-    "./tests"
-  ]
+  "include": ["src/**/*", "tests/**/*"]
 }
