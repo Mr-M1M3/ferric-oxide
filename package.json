@@ -13,6 +13,10 @@
     "./maybe": {
       "default": "./dist/maybe/maybe.js",
       "types": "./dist/types/maybe/maybe.d.ts"
+    },
+    "./result": {
+      "default": "./dist/result/result.js",
+      "types": "./dist/types/result/result.d.ts"
     }
   },
   "keywords": [],
