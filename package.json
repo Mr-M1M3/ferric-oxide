@@ -1,5 +1,5 @@
 {
-  "name": "rusts",
+  "name": "rsts",
   "version": "0.1.0",
   "description": "Rust liike utilities for typescript",
   "scripts": {
