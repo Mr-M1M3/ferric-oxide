@@ -2,6 +2,14 @@
   "name": "rsts",
   "version": "0.1.0",
   "description": "Rust liike utilities for typescript",
+  "homepage": "https://github.com/mr-m1m3/rsts",
+  "bugs": {
+    "url": "https://github.com/mr-m1m3/rsts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-m1m3/rsts.git"
+  },
   "scripts": {
     "build": "tsc"
   },
