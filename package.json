@@ -1,14 +1,14 @@
 {
-  "name": "@mr-m1m3/rsts",
+  "name": "ferric-oxide",
   "version": "1.0.0",
   "description": "Rust liike utilities for typescript",
-  "homepage": "https://github.com/mr-m1m3/rsts",
+  "homepage": "https://github.com/mr-m1m3/ferric-oxide",
   "bugs": {
-    "url": "https://github.com/mr-m1m3/rsts/issues"
+    "url": "https://github.com/mr-m1m3/ferric-oxide/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mr-m1m3/rsts.git"
+    "url": "git+https://github.com/mr-m1m3/ferric-oxide.git"
   },
   "scripts": {
     "build": "tsc",
@@ -40,7 +40,12 @@
     "option",
     "enum",
     "error-handling",
-    "null-handling"
+    "null-handling",
+    "ferric-oxide",
+    "iron-oxide",
+    "oxide",
+    "iron",
+    "ferric"
   ],
   "author": "@mr-m1m3",
   "license": "ISC",
