@@ -5,7 +5,7 @@ Rust is famous for its exceptional design choices that helps reduce some class o
 ## Installation
 
 ```bash
-npm i @mr-m1m3/rusts
+npm i ferric-oxide
 ```
 
 ## Usage
