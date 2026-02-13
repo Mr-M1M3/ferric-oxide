@@ -23,7 +23,7 @@ Basically a wrapper around `null`. Use it when a value can either be something o
 
 ```typescript
 
-import {Maybe} from "@mr-m1m3/ferric-oxide";
+import {Maybe} from "ferric-oxide";
 
 // contains some value
 const maybe_a_number = new Maybe(100);
@@ -123,14 +123,14 @@ function could_fail(): Result<Data, ErrMsg>{
     if(condition){
         return Result.Ok({/*...*/});
     }
-    throw Result.Err({/**/});
+    return Result.Err({/**/});
 }
 ```
 
 The instance comes with some useful methods:
 
 ```typescript
-import Result from "@mr-m1m3/ferric-oxide/result";
+import Result from "ferric-oxide/result";
 
 type Data = {
   name: string;

@@ -1,6 +1,6 @@
 {
   "name": "ferric-oxide",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Rust liike utilities for typescript",
   "homepage": "https://github.com/mr-m1m3/ferric-oxide",
   "bugs": {
